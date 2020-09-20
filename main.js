@@ -13,7 +13,7 @@ buscador.oninput = function() {
         if(!name.includes(buscador.value.toUpperCase())) {
             namesNodeList.forEach(
                 function (currentValue) {
-                    if (currentValue.innerText.toUpperCase() == name) {
+                    if (currentValue.innerText.toUpperCase() === name) {
                         currentValue.parentElement.parentElement.style.display = 'none'
                     }
                 }
@@ -22,7 +22,7 @@ buscador.oninput = function() {
         else {
             namesNodeList.forEach(
                 function (currentValue) {
-                    if (currentValue.innerText.toUpperCase() == name) {
+                    if (currentValue.innerText.toUpperCase() === name) {
                         currentValue.parentElement.parentElement.style.display = ''
                     }
                 }
