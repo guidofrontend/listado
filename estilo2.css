@@ -1,84 +1,84 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    text-align: center;
-    display: grid;
-    grid-template-rows: 15vh auto 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 15vh auto 10vh;
 }
 
 header {
-    background-color: hsl(0, 0%, 70%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: hsl(0, 0%, 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
-    min-height: 75vh;
-    margin: 0 auto;
-    display: flex;
-    max-width: 1024px;
-    justify-content: center;
-    align-items: center;
+  min-height: 75vh;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1024px;
+  justify-content: center;
+  align-items: center;
 }
 
 .person {
-    margin: 12px;
-    border: black solid 1px;
-    padding-left: 12px;
-    padding-right: 12px;
+  margin: 12px;
+  border: black solid 1px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .info {
-    text-align: left;
+  text-align: left;
 }
 
 .info p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 footer {
-    color: white;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    padding-right: 32px;
-    padding-left: 32px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 @media screen and (max-width: 1024px) {
-    main {
-        display: grid;
-        grid-template-rows: auto auto;
-        justify-items: center;
-        align-self: center;
-    }
+  main {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-self: center;
+  }
 
-    .person {
-        max-width: 340px;
-    }
+  .person {
+    max-width: 340px;
+  }
 
-    .info {
-        text-align: center;
-        align-self: start;
-    }
+  .info {
+    text-align: center;
+    align-self: start;
+  }
 
-    .info p {
-        padding: 24px
-    }
+  .info p {
+    padding: 24px;
+  }
 }
 
 @media screen and (max-width: 745px) {
-    header {
-        font-size: 12px;
-    }
+  header {
+    font-size: 12px;
+  }
 
-    .info p {
-        font-size: initial;
-        margin: 0;
-    }
+  .info p {
+    font-size: initial;
+    margin: 0;
+  }
 
-    footer {
-        font-size: 10px;
-    }
+  footer {
+    font-size: 10px;
+  }
 }
