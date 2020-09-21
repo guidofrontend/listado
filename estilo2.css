@@ -3,7 +3,7 @@ body {
   margin: 0;
   text-align: center;
   display: grid;
-  grid-template-rows: 15vh auto 10vh;
+  grid-template-rows: auto auto auto auto;
   background-color: hsla(48, 57%, 80%, 1);
 }
 
@@ -12,10 +12,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 120px;
 }
 
 main {
-  min-height: 75vh;
+  min-height: 70vh;
   margin: 0 auto;
   display: flex;
   max-width: 1024px;
@@ -36,6 +37,21 @@ main {
 
 .info p {
   font-size: 20px;
+}
+
+.contact {
+  padding: 16px;
+}
+
+.contact span {
+  text-decoration: underline;
+}
+
+.contact ul {
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+  list-style: none;
 }
 
 footer {
