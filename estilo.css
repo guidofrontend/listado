@@ -2,10 +2,12 @@ body {
   text-align: center;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("Images/Fondo/491.jpg");
+  background-size: 500px;
 }
 
 header {
-  background-color: hsl(0, 0%, 70%);
+  background-color: #d07e0e;
   padding-top: 32px;
 }
 
@@ -14,7 +16,7 @@ h1 {
 }
 
 form {
-  background-color: hsl(0, 0%, 70%);
+  background-color: #d07e0e;
   padding: 16px;
   margin-bottom: 16px;
 }
@@ -24,6 +26,23 @@ input {
   text-align: center;
   width: 30%;
   min-width: 250px;
+  background-color: #2f615e;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsla(48, 57%, 80%, 0.925);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: hsla(48, 57%, 80%, 0.925);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: hsla(48, 57%, 80%, 0.925);
 }
 
 main {
@@ -32,6 +51,7 @@ main {
   flex-wrap: wrap;
   max-width: 1024px;
   justify-content: center;
+  min-height: 78vh;
 }
 
 .person {
@@ -40,6 +60,8 @@ main {
   border: solid black 1px;
   margin: 8px;
   width: 300px;
+  background-color: hsla(48, 57%, 80%, 0.925);
+  max-height: 305px;
 }
 
 .person figure {
@@ -71,4 +93,10 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
 }

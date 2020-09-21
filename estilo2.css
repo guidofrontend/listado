@@ -4,10 +4,11 @@ body {
   text-align: center;
   display: grid;
   grid-template-rows: 15vh auto 10vh;
+  background-color: hsla(48, 57%, 80%, 1);
 }
 
 header {
-  background-color: hsl(0, 0%, 70%);
+  background-color: #d07e0e;
   display: flex;
   align-items: center;
   justify-content: center;

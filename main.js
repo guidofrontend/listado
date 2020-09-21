@@ -24,4 +24,4 @@ buscador.oninput = function () {
   }
 };
 
-buscador.onchange = () => (buscador.value = "");
+form.onsubmit = () => false;
