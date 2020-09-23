@@ -33,4 +33,4 @@ buscador.oninput = function () {
   }
 };
 
-form.onsubmit = () => false; //El formulario no se envía
+form.onsubmit = () => false; //El formulario no se envía.
