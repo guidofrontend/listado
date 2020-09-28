@@ -54,6 +54,21 @@ main {
   list-style: none;
 }
 
+.contact li {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+
+.contact figure {
+  margin: 0;
+  width: 30px;
+}
+
+.contact span {
+  align-self: center;
+}
+
 footer {
   color: white;
   background-color: black;
